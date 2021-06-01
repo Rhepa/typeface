@@ -181,3 +181,55 @@
     border-bottom-left-radius: 100px;
     border: 10px solid hotpink;
 }
+
+/* END F */
+/*START G */
+
+.letter-g-top{
+    width:270px; /*resize as you see fit */
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+}
+
+.letter-g-stem{
+    top: 70px;
+    width: 100px;
+    height: 250px ;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border-radius: 10px;
+    border: 10px solid hotpink;
+}
+
+.letter-g-bottom{
+	width:270px; /*resize as you see fit */
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-top-left-radius: 100px;
+ 	border-bottom: none;
+ 	bottom: 0px;
+ 	transform: scaleY(-1);
+}
+
+.letter-g-stem2{
+    right: 20px;
+    width: 70px;
+    height: 150px ;
+    box-shadow: -25px 0 0 -10px lightgrey;
+    background-color: hotpink;
+    border-radius: 10px;
+    border: 10px solid hotpink;
+    border-top-right-radius: 50px;
+    bottom: 0px;
+}

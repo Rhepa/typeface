@@ -1,0 +1,38 @@
+.letter {
+
+ 	width:200px; /*resize as you see fit */
+ 	height:300px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+ 	border:1px solid #000; /*feel free to remove or hide this rule */
+ 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(5,20%);
+	grid-template-rows: repeat(5, 20%);
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+}
+.grid-item {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+
+
+
+
+.letter-a {
+	grid-template-columns: 200px 80px 360px;
+	grid-template-rows: 200px 80px 200px ;
+	
+}
+
+
+.letter-a div {
+    border: 1px solid black;
+	}
+}

@@ -147,3 +147,39 @@
 
 /* END E */
 /* START F*/
+.letter-f-top{
+    width:270px; /*resize as you see fit */
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+}
+.letter-f-middle{
+	width:270px; /*resize as you see fit */
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 0px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-bottom: none;
+ 	bottom: 150px;
+}
+.letter-f-stem{
+    top: 70px;
+    width: 100px;
+    height: 300px ;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border-radius: 10px;
+    border-bottom-right-radius: 100px;
+   /* border-bottom-right-radius: 100px;*/
+   /* transform: rotate(90deg);*/
+    border: 10px solid hotpink;
+}

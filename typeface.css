@@ -52,6 +52,7 @@
 
  /* END C*/
  /* START D*/
+
 .letter-d {
 	transform: scaleX(-1)
 }
@@ -133,7 +134,7 @@
  	bottom: 0px;
  	transform: scaleY(-1);
 }
-.letter-c-stem{
+.letter-e-stem{
     top: 70px;
     width: 100px;
     height: 250px ;

@@ -141,7 +141,6 @@
     box-shadow: 25px -0px 0 -10px lightgrey;
     background-color: hotpink;
     border-radius: 10px;
-   /* transform: rotate(90deg);*/
     border: 10px solid hotpink;
 }
 
@@ -179,7 +178,6 @@
     background-color: hotpink;
     border-radius: 10px;
     border-bottom-right-radius: 100px;
-   /* border-bottom-right-radius: 100px;*/
-   /* transform: rotate(90deg);*/
+    border-bottom-left-radius: 100px;
     border: 10px solid hotpink;
 }

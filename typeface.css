@@ -24,8 +24,6 @@
  	border-top-left-radius: 100px;
  	border-bottom: none;
 }
-
-
 .letter-c-bottom{
 	width:270px; /*resize as you see fit */
  	height:100px;
@@ -46,6 +44,7 @@
     height: 250px ;
     box-shadow: 25px -0px 0 -10px lightgrey;
     background-color: hotpink;
+    border-radius: 10px;
    /* transform: rotate(90deg);*/
     border: 10px solid hotpink;
 }
@@ -65,8 +64,6 @@
  	border-bottom: none;
  	transform: scaleX(-1)
 }
-
-
 .letter-d-bottom{
 	width:270px; /*resize as you see fit */
  	height:100px;
@@ -82,12 +79,11 @@
  	transform: scaleY(-1) scaleX(-1);
 }
 .letter-d-stem{
-    top:-20px 70px;
+	top: 70px;
+    border-radius: 10px;
     width: 150px;
     height: 250px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
+    box-shadow: -25px -0px 0 -10px lightgrey;
     background-color: hotpink;
-   /* transform: rotate(90deg);*/
     border: 10px solid hotpink;
-    transform: scaleX(-1)
-}
+    

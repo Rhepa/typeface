@@ -7,14 +7,30 @@
  	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 }
 
+.letter-c-bottom{
+	width:270px; /*resize as you see fit */
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	/*background-color: hotpink;*/
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+ 	bottom: 0;
+}
 
 .letter-c-top{
-    width:300px; /*resize as you see fit */
+    width:270px; /*resize as you see fit */
  	height:100px;
- 	border: 10px solid orange;
- 	background-color: black;
+ 	border: 10px solid hotpink;
+ 	/*background-color: hotpink;*/
  	box-sizing: border-box;
- 	border-top-right-radius: 100px;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
  	border-top-left-radius: 100px;
- 	/*border-bottom-right-radius:150px ;*/
+ 	border-bottom: none;
 }
+

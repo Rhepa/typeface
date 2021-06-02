@@ -1,5 +1,4 @@
 .letter {
-
  	width:300px; /*resize as you see fit */
  	height:400px; /*resize as you see fit */
 	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
@@ -12,6 +11,7 @@
 
 
 /*START A */
+
 .letter-a-top{
 	width:280px; 
  	height:100px;
@@ -535,7 +535,13 @@
 
 /*END L*/
 /*START M*/
-
+.letter-m {
+ 	width:600px; /*resize as you see fit */
+ 	height:400px; /*resize as you see fit */
+	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+ 	border:1px solid black; /*feel free to remove or hide this rule */
+ 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
 
 
 /*END M*/
@@ -598,3 +604,72 @@
     box-shadow: 25px 0 0 -10px lightgrey;
     border: 90px solid hotpink;
 }
+
+/*END O*/
+/*START P */
+
+.letter-p-top{
+    width:280px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+}
+.letter-p-middle{
+	width:280px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 0px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-bottom: none;
+ 	bottom: 150px;
+}
+.letter-p-stem{
+	top: 100px;
+    left: 0px;
+    width: 100px;
+    height: 280px ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 25px -0px 0 -10px lightgrey; 
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+.letter-p-right{
+width:280px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 100px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+ }
+/*END P*/
+/*START Q */
+
+/*END Q*/
+/*START R */
+
+/*END S*/
+/*START T */
+
+/*END U*/
+/*START V */
+
+/*END W*/
+/*START Y */
+
+/*END Y*/
+/*START Z */
+
+/*END Z*/

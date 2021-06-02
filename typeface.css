@@ -46,10 +46,10 @@
     border: 10px solid #f68eb0;
 }
 .letter-a-middle{
-	top: 155px;
+	top: 150px;
     left: 100px;
-    width:90px;
-    height:80px;
+    width:100px;
+    height:100px;
     box-sizing: border-box;
     box-shadow: 10px 10px 0 0 #7b7ba7;
     border: 10px solid #f68eb0;
@@ -106,15 +106,15 @@
     border: 10px solid #f68eb0;
 }
 .letter-b-middle{
-    top: 155px;
+    top: 150px;
     left: 90px;
-    width:50px;
-    height:80px;
+    width:100px;
+    height:100px;
+     box-sizing: border-box;
     border: 10px solid #f68eb0;
     background-color: #f68eb0;
     box-sizing: border-box;
     box-shadow: 10px 10px 0 0 #7b7ba7;
-    border-bottom: none;
 }
 
 /* END B*/
@@ -367,10 +367,10 @@
     background-color: #f68eb0;      
 }
 .letter-h-middle{
-	top: 155px;
+	top: 150px;
     left: 100px;
     width:90px;
-    height:80px;
+    height:100px;
     box-sizing: border-box;
     box-shadow: 10px 10px 0 0 #7b7ba7;
     border: 10px solid #f68eb0;
@@ -508,7 +508,6 @@
 }
 .letter-l-stem{
     top: 0px;
-    
     width: 100px;
     height: 300px ;
     box-shadow: 20px 0 0 -10px #7b7ba7;
@@ -777,33 +776,29 @@
 /*END S*/
 /*START T */
 
-.letter-t {
- 	width:400px; /*resize as you see fit */
- 	
-}
 
 .letter-t-top{
-	width:385px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+	width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
+    border-top-left-radius: 100px;
+    border: 10px solid #f68eb0;
+    background-color: #f68eb0;   
  }
 .letter-t-stem{
-	top: 100px;
-    left: 140px;
+    top: 100px;
+	left: 90px;
     width: 100px;
-    height: 280px ;  
+    height: 300px ;
+    box-sizing: border-box; 
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 100px;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid:#f68eb0;
+    background-color: #f68eb0;  
 }
 
 /*END T*/
@@ -811,16 +806,16 @@
 
 .letter-u-stem {
     top: 0px;
-    left: 0px;
     width: 100px;
-    height: 380px ;
+    height: 400px ;
+    box-sizing: border-box; 
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 100px;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
-}
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid:#f68eb0;
+    background-color: #f68eb0;  
+} 
 .letter-u-stem2{
 	top: 0px;
     left: 160px;
@@ -842,7 +837,7 @@
  	background-color: hotpink;
  	box-sizing: border-box;
  	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-bottom: none;	 	
+ 		 	
 }
 
 
@@ -913,43 +908,50 @@
 	transform: scaleX(-1);
 }
 .letter-y-bottom{
-	width:280px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
- 	bottom: 0px;
- 	transform: scaleY(-1);
+    border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
+    bottom: 0px;
+    transform: scaleY(-1);
 }
 .letter-y-stem{
     top: 0px;
     left: 0px;
     width: 100px;
-    height: 280px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    height: 300px ;
+     box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
     border-top-right-radius: 30px;
  }
 .letter-y-top{
-	top: -10px;
-	left: 130px;
+	top: 0px;
+    left: 190px;
     width: 100px;
-    height: 240px ;
+    height: 250px ;
     box-sizing: border-box;
-    box-shadow: 25px 0 0 -10px lightgrey;
-    background-color: hotpink;
-    border-radius: 10px;
-    border: 10px solid hotpink;
+    box-shadow: -20px 0 0 -10px #7b7ba7 ;
+    background-color: #f68eb0;
+    border: 10px solid #f68eb0;
     border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    bottom: 0px;
-    transform: rotate(50deg);
+    border-bottom-right-radius: 50px; 
+}
+.letter-y-middle{
+    top: 150px;
+    left: 100px;
+    width:90px;
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 0px -10px 0 0 #7b7ba7;
+    border: 10px solid #f68eb0;
+    background-color: #f68eb0;   
 }
 
 /*END Y*/

@@ -661,8 +661,7 @@
  	border: 10px solid hotpink;
  	background-color: hotpink;
  	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	
+ 	box-shadow: 15px 15px 0 0 lightgrey;	
  	border-top-left-radius: 100px;
  	border-bottom: none;
 }
@@ -801,6 +800,38 @@
 }
 /*END S*/
 /*START T */
+
+.letter-t {
+ 	width:400px; /*resize as you see fit */
+ 	
+}
+
+.letter-t-top{
+	width:385px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+ }
+.letter-t-stem{
+	top: 100px;
+    left: 140px;
+    width: 100px;
+    height: 280px ;  
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+
+/*END T*/
+/*START U*/
 
 /*END U*/
 /*START V */

@@ -659,9 +659,99 @@
 /*END P*/
 /*START Q */
 
+.letter-q::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    left: 0px;
+    top: 0px;
+    width: 285px;
+    height: 400px;
+    background: transparent;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 25px 0 0 -10px lightgrey;
+    border: 90px solid hotpink;
+}
+.letter-q-bottom{
+	top: 185px;
+	left: 150px;
+    width: 100px;
+    height: 230px ;
+    box-sizing: border-box;
+    background-color: hotpink;
+    border-radius: 10px;
+    border: 10px solid hotpink;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    bottom: 0px;
+    transform: rotate(140deg);
+}
+
+
 /*END Q*/
 /*START R */
 
+.letter-r-top{
+    width:200px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+}
+.letter-r-middle{
+	top: 180px;
+    left: 120px;
+	width:80px;
+ 	height:70px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-bottom: none;
+ 	bottom: 150px;
+}
+.letter-r-stem{
+	top: 100px;
+    left: 0px;
+    width: 100px;
+    height: 280px ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 25px 0 0 -10px lightgrey; 
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+.letter-r-right{
+	top: 75px;
+    left: 125px;
+    width:250px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 0px 0 0 lightgrey;
+ 	border-top-right-radius: 100px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+ 	transform: rotate(90deg);
+ }
+ .letter-r-bottom{
+	top: 185px;
+	left: 150px;
+    width: 100px;
+    height: 230px ;
+    box-sizing: border-box;
+    background-color: hotpink;
+    border-radius: 10px;
+    border: 10px solid hotpink;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    bottom: 0px;
+    transform: rotate(140deg);
+}
 /*END S*/
 /*START T */
 
@@ -673,5 +763,54 @@
 
 /*END Y*/
 /*START Z */
+.letter-z{
+	transform: rotate(180deg);
+}
+
+.letter-z-stem {
+    top: 175px;
+    left: 90px;
+    width: 100px;
+    height: 280px ;
+    box-sizing: border-box;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+    transform: rotate(90deg);
+}
+.letter-z-stem2{
+	top: -90px;
+    left: 90px;
+    width: 100px;
+    height: 280px ;
+    box-sizing: border-box;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+     transform: rotate(90deg);
+}
+.letter-z-middle{
+	top: -25px;
+    left: 90px;
+    width: 100px;
+    height: 420px ;
+    box-sizing: border-box;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px; 
+    box-shadow: 15px 0px 0 0 lightgrey; 
+    background-color: hotpink;
+    border: 10px solid hotpink;
+    transform: rotate(35deg);
+}
 
 /*END Z*/

@@ -658,7 +658,7 @@
 }
 .letter-o-stem2{
     top: 100px;
-    left: 200;
+    left: 190px;
     width: 100px;
     height: 200px ;
     box-sizing: border-box;
@@ -666,7 +666,6 @@
     border: 10px solid: #f68eb0;
     background-color:  #f68eb0;
 }
-
 
 /*END O*/
 /*START P */
@@ -715,16 +714,46 @@
 /*END P*/
 /*START Q */
 
-.letter-q::before {
-    content: "";
-    position: absolute;
+.letter-o-top{
+    width:290px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 #7b7ba7;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border: 10px solid#f68eb0;    
+  background-color: #f68eb0 ; 
+}
+.letter-o-bottom1{
+  width:290px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 #7b7ba7;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border: 10px solid#f68eb0;    
+  background-color: #f68eb0 ; 
+  bottom: 0px;  
+  transform: scaleY(-1);       
+}
+.letter-o-stem1{
+    top: 100px;
+    width: 100px;
+    height: 200px ;
     box-sizing: border-box;
-    width: 290px;
-    height: 400px;
-    background: transparent;
-    border-radius: 100px 100px 100px 100px;
     box-shadow: 20px 0 0 -10px #7b7ba7;
-    border: 100px solid #f68eb0;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
+}
+.letter-o-stem2{
+    top: 100px;
+    left: 190px;
+    width: 100px;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
 }
 .letter-q-bottom{
 	top: 185px;
@@ -734,6 +763,7 @@
     box-sizing: border-box;
     border: 10px solid:#f68eb0;
     background-color: #f68eb0; 
+    
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     bottom: 0px;

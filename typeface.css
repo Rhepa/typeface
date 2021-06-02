@@ -1046,20 +1046,21 @@
 /*END W*/
 /*START X*/
 
- /*.letter-x-right{
-    top: 185px;
-    left: 150px;
+ .letter-x-right{
+top: -23px;
+    left: 107px;
     width: 100px;
-    height: 230px ;
+    height: 450px ;
     box-sizing: border-box;
+    
     border: 10px solid:#f68eb0;
     background-color: #f68eb0; 
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-    bottom: 0px;
-    transform: rotate(140deg);
-}*/
-
+     border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: rotate(-148deg) scaleY(-1);
+}
  .letter-x-left{
     top: -23px;
     left: 107px;
@@ -1073,7 +1074,6 @@
     border-top-left-radius: 50px;
      border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
-
     transform: rotate(148deg);
 }
 

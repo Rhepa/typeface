@@ -572,44 +572,43 @@
 /*START N*/
 
 .letter-n-stem {
-    top: 0px;
-    left: 0px;
-    width: 70px;
-    height: 380px ;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
+     top: 0px;
+    width: 100px;
+    height: 400px ;
+    box-sizing: border-box; 
+    border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 100px;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid:#f68eb0;
+    background-color: #f68eb0;  
 }
 .letter-n-stem2{
 	top: 0px;
-    left: 195px;
-    width: 70px;
-    height: 380px ;
+    left: 190px;
+    width: 100px;
+    height: 400px ;
+    box-sizing: border-box; 
     border-top-left-radius: 30px;
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid:#f68eb0;
+    background-color: #f68eb0; 
 }
 .letter-n-middle{
-	top: -24px;
+	top: 0px;
     left: 100px;
-    width: 70px;
-    height: 425px ;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
-    transform: rotate(-30deg);
+    width: 100px;
+    height: 400px ;
+    box-sizing: border-box; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid:#f68eb0;
+    background-color: #f68eb0; 
+    transform: rotate(-28deg);
 }
 
 /*END N*/

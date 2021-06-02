@@ -101,7 +101,7 @@
     width: 100px;
     height: 200px ;
     box-sizing: border-box;
-    box-shadow: 25px 0 0 -10px #7b7ba7;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
     background-color:#f68eb0;
     border: 10px solid #f68eb0;
 }
@@ -130,18 +130,17 @@
  	border-top-left-radius: 100px;
     border: 10px solid  #f68eb0;
     background-color:  #f68eb0;
- 	border-bottom: none;
 }
 .letter-c-bottom{
 	width:290px; 
  	height:100px;
- 	border: 10px solid: #f68eb0;
- 	background-color: #f68eb0;
  	box-sizing: border-box;
  	box-shadow: 10px 10px 0 0 #7b7ba7;
  	border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
  	border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color: #f68eb0;
  	bottom: 0px;
  	transform: scaleY(-1);
 }
@@ -151,7 +150,7 @@
     width: 100px;
     height: 200px ;
     box-sizing: border-box;
-    box-shadow: 25px 0 0 -10px #7b7ba7;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
     background-color:  #f68eb0;
     border: 10px solid  #f68eb0;
 }
@@ -201,7 +200,7 @@
     width: 100px;
     height: 200px ;
     box-sizing: border-box;
-    box-shadow: 25px 0 0 -10px #7b7ba7;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
     background-color:#f68eb0;
     border: 10px solid #f68eb0;
 }
@@ -210,123 +209,116 @@
  /* START E*/
 
 .letter-e-top{
-    width:280px; 
+    width:290px; 
  	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	box-shadow: 10px 10px 0 0 #7b7ba7;
  	border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
  	border-top-left-radius: 100px;
- 	border-bottom: none;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;	
 }
 .letter-e-middle{
-	width:280px; 
+	width:290px; 
 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
  	box-sizing: border-box;
- 	box-shadow: 15px 0px 0 0 lightgrey;
+ 	box-shadow: 10px 0px 0 0 #7b7ba7;
  	border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-bottom: none;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
  	bottom: 150px;
 }
 .letter-e-bottom{
-	width:280px; 
+	width:290px; 
  	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
  	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	box-shadow: 10px 10px 0 0 #7b7ba7;
  	border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
  	border-top-left-radius: 100px;
- 	border-bottom: none;
+ 	border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
  	bottom: 0px;
  	transform: scaleY(-1);
 }
 .letter-e-stem{
     top: 100px;
-    left: 0px;
     width: 100px;
-    height: 180px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
 }
 
 /* END E */
 /* START F*/
 
 .letter-f-top{
-    width:280px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
+    border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0; 
 }
 .letter-f-middle{
-	width:280px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 0px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+	width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-bottom: none;
- 	bottom: 150px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
+    bottom: 150px;
 }
 .letter-f-stem{
 	top: 100px;
-    left: 0px;
     width: 100px;
-    height: 280px ;
+    height: 300px ;
+    box-sizing: border-box; 
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 100px;
-    box-shadow: 25px -0px 0 -10px lightgrey; 
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    background-color: #f68eb0;
+    border: 10px solid #f68eb0;
 }
 
 /* END F */
 /*START G */
 
 .letter-g-top{
-    width:280px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
+    border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
 }
 .letter-g-stem{
     top: 100px;
-    left: 0px;
     width: 100px;
-    height: 180px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
 }
 .letter-g-bottom{
-	width:280px; 
+	width:290px; 
  	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
+ 	border: 10px solid #f68eb0;
+ 	background-color: #f68eb0;
  	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	box-shadow: 10px 10px 0 0 #7b7ba7;
  	border-top-right-radius: 50px;
     border-top-left-radius: 100px;
  	border-bottom: none;
@@ -334,14 +326,14 @@
  	transform: scaleY(-1);
 }
 .letter-g-stem2{
-    right: 15px;
+    right: 10px;
     width: 100px;
     height: 180px ;
     box-sizing: border-box;
-    box-shadow: 25px 0 0 -10px lightgrey;
-    background-color: hotpink;
+    box-shadow: 20px 0 0 -10px #7b7ba7 ;
+    background-color: #f68eb0;
     border-radius: 10px;
-    border: 10px solid hotpink;
+    border: 10px solid #f68eb0;
     border-top-right-radius: 50px;
     bottom: 0px;
 }
@@ -534,57 +526,50 @@
  	width:400px; /*resize as you see fit */
  	height:400px; /*resize as you see fit */
 	transform: scaleY(1) rotate(90deg);
- 	
-}
+ }
 
 .letter-m-top{
-    width:385px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:390px; 
+    height:100px;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
+    border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0; 
 }
 .letter-m-middle{
-	width:385px; 
-	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 0px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:390px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-bottom: none;
- 	bottom: 150px;
-
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
+    bottom: 150px;
 }
 .letter-m-bottom{
-	width:385px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:390px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
- 	bottom: 0px;
- 	transform: scaleY(-1);
-
+    border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
+    bottom: 0px;
+    transform: scaleY(-1);
 }
 .letter-m-stem{
     top: 100px;
-    left: 0px;
     width: 100px;
-    height: 180px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
 }
 /*END M*/
 /*START N*/
@@ -879,53 +864,47 @@
 }
 
 .letter-w-top{
-    width:385px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:390px; 
+    height:100px;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
+    border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0; 
 }
 .letter-w-middle{
-	width:385px; 
-	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 0px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:390px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 0px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-bottom: none;
- 	bottom: 150px;
-
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
+    bottom: 150px;
 }
 .letter-w-bottom{
-	width:385px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:390px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
- 	bottom: 0px;
- 	transform: scaleY(-1);
-
+    border-top-left-radius: 100px;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
+    bottom: 0px;
+    transform: scaleY(-1);
 }
 .letter-w-stem{
     top: 100px;
-    left: 0px;
     width: 100px;
-    height: 180px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    border: 10px solid: #f68eb0;
+    background-color:  #f68eb0;
 }
 
 /*END W*/

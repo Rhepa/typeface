@@ -501,6 +501,7 @@
     border: 10px solid hotpink;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
+
     bottom: 0px;
     transform: rotate(140deg);
 }
@@ -530,6 +531,7 @@
     background-color: hotpink;
     border: 10px solid hotpink;
     border-top-left-radius: 30px;
+ }
 
 /*END L*/
 /*START M*/

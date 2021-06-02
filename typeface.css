@@ -536,14 +536,61 @@
 /*END L*/
 /*START M*/
 .letter-m {
- 	width:600px; /*resize as you see fit */
+ 	width:400px; /*resize as you see fit */
  	height:400px; /*resize as you see fit */
-	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
- 	border:1px solid black; /*feel free to remove or hide this rule */
- 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+	transform: scaleY(1) rotate(90deg);
+ 	
 }
 
+.letter-m-top{
+    width:385px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+}
+.letter-m-middle{
+	width:385px; 
+	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 0px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-bottom: none;
+ 	bottom: 150px;
 
+}
+.letter-m-bottom{
+	width:385px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+ 	bottom: 0px;
+ 	transform: scaleY(-1);
+
+}
+.letter-m-stem{
+    top: 100px;
+    left: 0px;
+    width: 100px;
+    height: 180px ;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
 /*END M*/
 /*START N*/
 
@@ -758,8 +805,72 @@
 /*END U*/
 /*START V */
 
+/*END V*/
+/*START W*/
+
+.letter-w {
+ 	width:400px; /*resize as you see fit */
+ 	height:400px; /*resize as you see fit */
+	transform: scaleY(-1) rotate(90deg);
+ 	
+}
+
+.letter-w-top{
+    width:385px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+}
+.letter-w-middle{
+	width:385px; 
+	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 0px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-bottom: none;
+ 	bottom: 150px;
+
+}
+.letter-w-bottom{
+	width:385px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+ 	bottom: 0px;
+ 	transform: scaleY(-1);
+
+}
+.letter-w-stem{
+    top: 100px;
+    left: 0px;
+    width: 100px;
+    height: 180px ;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+
 /*END W*/
+/*START X*/
+
+/*END X*
 /*START Y */
+
 .letter-y{
 	transform: scaleX(-1);
 }
@@ -805,6 +916,7 @@
 
 /*END Y*/
 /*START Z */
+
 .letter-z{
 	transform: rotate(180deg);
 }

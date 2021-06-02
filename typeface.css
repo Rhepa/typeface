@@ -536,8 +536,51 @@
 /*END L*/
 /*START M*/
 
+
+
 /*END M*/
 /*START N*/
+
+.letter-n-stem {
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 380px ;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+.letter-n-stem2{
+	top: 0px;
+    left: 195px;
+    width: 70px;
+    height: 380px ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+.letter-n-middle{
+	top: -24px;
+    left: 100px;
+    width: 70px;
+    height: 425px ;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 25px -0px 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+    transform: rotate(-30deg);
+}
 
 /*END N*/
 /*START O */

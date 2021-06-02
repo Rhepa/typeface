@@ -1,9 +1,9 @@
 .letter {
- 	width:300px; /*resize as you see fit */
- 	height:400px; /*resize as you see fit */
-	display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
- 	border:1px solid black; /*feel free to remove or hide this rule */
- 	position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+  width:300px; 
+  height:400px; 
+  display:inline-block; 
+  border:1px solid black;
+  position:relative; 
 }
 .letter div{
 	position: absolute;
@@ -13,51 +13,48 @@
 /*START A */
 
 .letter-a-top{
-	width:280px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 100px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;	 	
+  width:290px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 #7b7ba7;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border: 10px solid#f68eb0;	
+  background-color: #f68eb0 ; 	
 }
-.letter-a-stem {
+.letter-a-stem1 {
     top: 100px;
-    left: 0px;
     width: 100px;
-    height: 280px ; 
+    height: 300px ;
+    box-sizing: border-box; 
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 100px;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    background-color: #f68eb0;
+    border: 10px solid #f68eb0;
 }
 .letter-a-stem2{
 	top: 100px;
-    left: 160px;
+    left: 190px;
     width: 100px;
-    height: 280px;  
+    height: 300px; 
+    box-sizing: border-box; 
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 100px;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
-
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    background-color: #f68eb0;
+    border: 10px solid #f68eb0;
 }
 .letter-a-middle{
 	top: 155px;
-    left: 110px;
-	width:50px;
- 	height:80px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-bottom: none;
- }
-
+    left: 100px;
+    width:90px;
+    height:80px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border: 10px solid #f68eb0;
+    background-color: #f68eb0;
+}
 
 /*END A*/
 /*START B*/
@@ -66,58 +63,57 @@
 	transform: scaleX(-1)
 }
 .letter-b-top{
-    width:280px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;	
+    border-top-left-radius: 100px;
+    border: 10px solid #f68eb0;
+    background-color: #f68eb0;	
 }
 .letter-b-bottom{
-	width:280px;
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
- 	bottom: 0px;
- 	transform: scaleY(-1);
+  width:290px;
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 #7b7ba7;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 100px;
+  border: 10px solid #f68eb0;
+  background-color: #f68eb0;
+  bottom: 0px;
+  transform: scaleY(-1);
 }
 .letter-b-stem {
     top: 100px;
-    left: 0px;
-    width: 70px;
-    height: 180px ;
-    box-shadow: 25px 0 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    width: 100px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    background-color: #f68eb0;
+    border: 10px solid #f68eb0;
 }
 .letter-b-stem2{
     top: 100px;
     left: 140px;
-    width: 70px;
-    height: 180px ;
-    box-shadow: 25px 0 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    width: 100px;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 25px 0 0 -10px #7b7ba7;
+    background-color:#f68eb0;
+    border: 10px solid #f68eb0;
 }
 .letter-b-middle{
     top: 155px;
     left: 90px;
 	width:50px;
  	height:80px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
+ 	border: 10px solid #f68eb0;
+ 	background-color: #f68eb0;
  	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	box-shadow: 10px 10px 0 0 #7b7ba7;
  	border-bottom: none;
  }
 
@@ -125,28 +121,27 @@
  /* START C*/
 
 .letter-c-top{
-    width:280px; 
+    width:290px; 
  	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
  	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	box-shadow: 10px 10px 0 0 #7b7ba7;
  	border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
  	border-top-left-radius: 100px;
+    border: 10px solid  #f68eb0;
+    background-color:  #f68eb0;
  	border-bottom: none;
 }
 .letter-c-bottom{
-	width:280px; 
+	width:290px; 
  	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
+ 	border: 10px solid: #f68eb0;
+ 	background-color: #f68eb0;
  	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	box-shadow: 10px 10px 0 0 #7b7ba7;
  	border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
  	border-top-left-radius: 100px;
- 	border-bottom: none;
  	bottom: 0px;
  	transform: scaleY(-1);
 }
@@ -154,62 +149,62 @@
     top: 100px;
     left: 0px;
     width: 100px;
-    height: 180px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 25px 0 0 -10px #7b7ba7;
+    background-color:  #f68eb0;
+    border: 10px solid  #f68eb0;
 }
 
  /* END C*/
  /* START D*/
 
 .letter-d {
-	transform: scaleX(-1)
+    transform: scaleX(-1)
 }
 .letter-d-top{
-    width:280px; 
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
+    width:290px; 
+    height:100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;	
+    border-top-left-radius: 100px;
+    border: 10px solid #f68eb0;
+    background-color: #f68eb0;  
 }
 .letter-d-bottom{
-	width:280px;
- 	height:100px;
- 	border: 10px solid hotpink;
- 	background-color: hotpink;
- 	box-sizing: border-box;
- 	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
- 	border-top-left-radius: 100px;
- 	border-bottom: none;
- 	bottom: 0px;
- 	transform: scaleY(-1);
+  width:290px;
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 #7b7ba7;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 100px;
+  border: 10px solid #f68eb0;
+  background-color: #f68eb0;
+  bottom: 0px;
+  transform: scaleY(-1);
 }
 .letter-d-stem {
     top: 100px;
-    left: 0px;
-    width: 70px;
-    height: 180px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
+    width: 100px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 20px 0 0 -10px #7b7ba7;
+    background-color: #f68eb0;
+    border: 10px solid #f68eb0;
 }
 .letter-d-stem2{
     top: 100px;
     left: 140px;
-    width: 70px;
-    height: 180px ;
-    box-shadow: 25px -0px 0 -10px lightgrey;
-    background-color: hotpink;
-    border: 10px solid hotpink;
- }
+    width: 100px;
+    height: 200px ;
+    box-sizing: border-box;
+    box-shadow: 25px 0 0 -10px #7b7ba7;
+    background-color:#f68eb0;
+    border: 10px solid #f68eb0;
+}
 
  /* END D */
  /* START E*/

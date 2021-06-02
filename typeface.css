@@ -10,11 +10,71 @@
 	position: absolute;
 }
 
+
+
+.letter-b {
+	transform: scaleX(-1)
+}
+.letter-b-top{
+    width:280px; 
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;	
+}
+.letter-b-bottom{
+	width:280px;
+ 	height:100px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+ 	border-top-left-radius: 100px;
+ 	border-bottom: none;
+ 	bottom: 0px;
+ 	transform: scaleY(-1);
+}
+.letter-b-stem {
+    top: 100px;
+    left: 0px;
+    width: 70px;
+    height: 180px ;
+    box-shadow: 25px 0 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+.letter-b-stem2{
+    top: 100px;
+    left: 140px;
+    width: 70px;
+    height: 180px ;
+    box-shadow: 25px 0 0 -10px lightgrey;
+    background-color: hotpink;
+    border: 10px solid hotpink;
+}
+.letter-b-middle{
+    top: 155px;
+    left: 90px;
+	width:50px;
+ 	height:80px;
+ 	border: 10px solid hotpink;
+ 	background-color: hotpink;
+ 	box-sizing: border-box;
+ 	box-shadow: 15px 15px 0 0 lightgrey;
+ 	border-bottom: none;
+ }
  /* END B*/
  /* START C*/
 
 .letter-c-top{
-    width:270px; /*resize as you see fit */
+    width:280px; /*resize as you see fit */
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -26,7 +86,7 @@
  	border-bottom: none;
 }
 .letter-c-bottom{
-	width:270px; /*resize as you see fit */
+	width:280px; /*resize as you see fit */
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -56,7 +116,7 @@
 	transform: scaleX(-1)
 }
 .letter-d-top{
-    width:270px; 
+    width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -68,7 +128,7 @@
  	border-bottom: none;	
 }
 .letter-d-bottom{
-	width:270px;
+	width:280px;
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -92,18 +152,18 @@
 }
 .letter-d-stem2{
     top: 100px;
-    left: 120px;
+    left: 140px;
     width: 70px;
     height: 180px ;
     box-shadow: 25px -0px 0 -10px lightgrey;
     background-color: hotpink;
     border: 10px solid hotpink;
-    }
+ }
  /* END D */
  /* START E*/
 
 .letter-e-top{
-    width:270px; 
+    width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -115,7 +175,7 @@
  	border-bottom: none;
 }
 .letter-e-middle{
-	width:270px; 
+	width:280px; 
 	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -127,7 +187,7 @@
  	bottom: 150px;
 }
 .letter-e-bottom{
-	width:270px; 
+	width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -154,7 +214,7 @@
 /* START F*/
 
 .letter-f-top{
-    width:270px; 
+    width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -166,7 +226,7 @@
  	border-bottom: none;
 }
 .letter-f-middle{
-	width:270px; 
+	width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -193,7 +253,7 @@
 /*START G */
 
 .letter-g-top{
-    width:270px; 
+    width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -214,7 +274,7 @@
     border: 10px solid hotpink;
 }
 .letter-g-bottom{
-	width:270px; 
+	width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -276,9 +336,7 @@
  	background-color: hotpink;
  	box-sizing: border-box;
  	box-shadow: 15px 15px 0 0 lightgrey;
- 	border-bottom: none;
- 	
- 	
+ 	border-bottom: none;	 	
 }
 
 /* END H */
@@ -304,7 +362,7 @@
 	transform: scaleX(-1)
 }
 .letter-j-top{
-    width:270px; 
+    width:280px; 
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;
@@ -326,7 +384,7 @@
     border: 10px solid hotpink;
 }
 .letter-j-bottom{
-	width:270px;
+	width:280px;
  	height:100px;
  	border: 10px solid hotpink;
  	background-color: hotpink;

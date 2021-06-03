@@ -2,7 +2,6 @@
   width:300px; 
   height:400px; 
   display:inline-block; 
-  border:1px solid black;
   position:relative; 
 }
 .letter div{
@@ -996,7 +995,7 @@
   width:400px; /*resize as you see fit */
   height:400px; /*resize as you see fit */
   transform: scaleY(-1) rotate(90deg);
-  
+
 }
 
 .letter-w-top{
@@ -1135,7 +1134,7 @@
 
 .letter-z{
     transform: scaleY(-1);
-    
+
 }
 .letter-z-top{
     width:290px; 

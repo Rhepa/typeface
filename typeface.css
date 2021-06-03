@@ -3,7 +3,8 @@
   height:400px; 
   display:inline-block; 
   position:relative; 
-  background-color: #8dbfbe;
+  background-color: #8dbfbe; 
+  border-radius: 10px; 
 }
 .letter div{
 	position: absolute;

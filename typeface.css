@@ -3,6 +3,7 @@
   height:400px; 
   display:inline-block; 
   position:relative; 
+  background-color: #8dbfbe;
 }
 .letter div{
 	position: absolute;
@@ -18,7 +19,7 @@
   box-shadow: 10px 10px 0 0 #7b7ba7;
   border-top-right-radius: 100px;
   border-top-left-radius: 100px;
-  border: 10px solid#f68eb0;	
+  border: 10px solid #f68eb0;	
   background-color: #f68eb0 ; 	
 }
 .letter-a-stem1 {
@@ -219,8 +220,8 @@
     background-color:  #f68eb0;	
 }
 .letter-e-middle{
-	width:290px; 
-	height:100px;
+  width:290px; 
+  height:100px;
   box-sizing: border-box;
   box-shadow: 10px 0px 0 0 #7b7ba7;
   border-top-right-radius: 50px;
@@ -230,7 +231,7 @@
   bottom: 150px;
 }
 .letter-e-bottom{
-	width:290px; 
+  width:290px; 
   height:100px;
   box-sizing: border-box;
   box-shadow: 10px 10px 0 0 #7b7ba7;
@@ -612,41 +613,29 @@
 /*END N*/
 /*START O */
 
-/*.letter-o::before {
-      content: "";
-    position: absolute;
+.letter-o-top{
+    width:290px; 
+    height:100px;
     box-sizing: border-box;
-    width: 290px;
-    height: 400px;
-    background: transparent;
-    border-radius: 100px 100px 100px 100px;
-    box-shadow: 20px 0 0 -10px #7b7ba7;
-
-    border: 100px solid #f68eb0;
-    }*/
-    .letter-o-top{
-        width:290px; 
-        height:100px;
-        box-sizing: border-box;
-        box-shadow: 10px 10px 0 0 #7b7ba7;
-        border-top-right-radius: 100px;
-        border-top-left-radius: 100px;
-        border: 10px solid#f68eb0;    
-        background-color: #f68eb0 ; 
-    }
-    .letter-o-bottom{
-      width:290px; 
-      height:100px;
-      box-sizing: border-box;
-      box-shadow: 10px 10px 0 0 #7b7ba7;
-      border-top-right-radius: 100px;
-      border-top-left-radius: 100px;
-      border: 10px solid#f68eb0;    
-      background-color: #f68eb0 ; 
-      bottom: 0px;  
-      transform: scaleY(-1);       
-  }
-  .letter-o-stem1{
+    box-shadow: 10px 10px 0 0 #7b7ba7;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 10px solid#f68eb0;    
+    background-color: #f68eb0 ; 
+}
+.letter-o-bottom{
+  width:290px; 
+  height:100px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0 0 #7b7ba7;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border: 10px solid#f68eb0;    
+  background-color: #f68eb0 ; 
+  bottom: 0px;  
+  transform: scaleY(-1);       
+}
+.letter-o-stem1{
     top: 100px;
     width: 100px;
     height: 200px ;
@@ -769,7 +758,6 @@
     transform: rotate(140deg);
 }
 
-
 /*END Q*/
 /*START R */
 
@@ -827,6 +815,7 @@
     bottom: 0px;
     transform: rotate(140deg);
 }
+
 /*END S*/
 /*START S*/
 
@@ -992,8 +981,8 @@
 /*START W*/
 
 .letter-w {
-  width:400px; /*resize as you see fit */
-  height:400px; /*resize as you see fit */
+  width:400px; 
+  height:400px; 
   transform: scaleY(-1) rotate(90deg);
 
 }
